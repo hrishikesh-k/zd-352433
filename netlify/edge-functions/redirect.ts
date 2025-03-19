@@ -3,7 +3,7 @@ export default async function() {
     headers: {
       location: 'https://www.google.com/'
     },
-    status: 302
+    status: 301
   })
 }
 

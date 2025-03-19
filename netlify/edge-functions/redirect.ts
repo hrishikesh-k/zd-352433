@@ -1,7 +1,7 @@
 export default async function() {
   return new Response('', {
     headers: {
-      location: '/'
+      location: '/test'
     },
     status: 301
   })

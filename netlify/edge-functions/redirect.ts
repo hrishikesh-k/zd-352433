@@ -1,5 +1,5 @@
 export default async function() {
-  return new Response(null, {
+  return new Response('', {
     headers: {
       location: 'https://www.google.com/'
     },

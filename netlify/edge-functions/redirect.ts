@@ -1,5 +1,5 @@
 export default async function() {
-  return new Response(nulll, {
+  return new Response(null, {
     headers: {
       'cache-control': 's-maxage=31536000',
       location: '/test'
